@@ -1,6 +1,6 @@
 # Stock Correlation Explorer
 
-This is a simple web app for users to explore how different stocks move together over time. It calculates the 20-day rolling correlation of daily returns between selected stocks.
+This is a simple web app for users to explore how different stocks move together over time. It calculates the 20-day rolling correlation of daily returns between selected stocks. The app is built with Dash, uses pandas for data manipulation, and the correlation window is fixed at 20 days.
 
 ## App Logic
 
