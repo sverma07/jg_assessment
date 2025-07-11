@@ -4,14 +4,14 @@ import pytest
 import os
 import sys
 
-# Add 'src' directory to sys.path for local imports so that we can import the functions from the core logic module
+# Adding 'src' directory to sys.path for local imports so that we can import the functions from the core logic
 src_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "src"))
 sys.path.append(src_path)
 
-# Import your actual functions (adjust the function names exactly as defined in core_logic.py)
+# Importing functions from core_logic
 from core_logic import load_stock_data, compute_daily_returns, get_correlation_matrix
 
-# Sample data fixture with aligned dates and prices for 2 tickers
+# Sample data fixture with dates and prices for 2 tickers
 @pytest.fixture     # Using fixture here to keep the sample data consistent across tests and not be repetitive
 def sample_data():
     return pd.DataFrame({
