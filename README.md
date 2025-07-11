@@ -18,8 +18,8 @@ This is a simple web app for users to explore how different stocks move together
 1. Use the code below to clone the repo and go to the `app` folder:
 
 ```bash
-git clone <repo-url>
-cd project_root/app
+git clone https://github.com/sverma07/jg_assessment.git
+cd jg_assessment/app
 ```
 
 2. Install the necessary Python packages:
